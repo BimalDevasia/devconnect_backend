@@ -4,6 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+sqlalchemy = "*"
+asyncpg = "*"
+alembic = "*"
+pydantic = "*"
+python-jose = {extras = ["cryptography"], version = "*"}
+passlib = {extras = ["bcrypt"], version = "*"}
+python-multipart = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
